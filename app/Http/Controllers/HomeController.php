@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        echo "Selamat Datang";
+        return redirect('https://www.educastudio.com/');
     }
 
 }

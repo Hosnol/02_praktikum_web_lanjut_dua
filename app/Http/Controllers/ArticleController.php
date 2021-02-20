@@ -10,4 +10,12 @@ class ArticleController extends Controller
     {
         echo "Halaman Artikel dengan Id $id";
     }
+
+    public function news(){
+        return redirect('https://www.educastudio.com/news');
+    }
+
+    public function newsString($string){
+        return redirect("https://www.educastudio.com/news/" . $string );
+    }
 }
